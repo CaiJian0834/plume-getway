@@ -9,15 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>getway-config</artifactId>
+    <artifactId>getway-examples</artifactId>
 
-
-    <dependencies>
-        <dependency>
-            <groupId>com.plumeorg</groupId>
-            <artifactId>getway-common</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-    </dependencies>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
 </project>
